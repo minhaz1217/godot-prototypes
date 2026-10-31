@@ -11,8 +11,15 @@ config_version=5
 [application]
 
 config/name="Godot Prototypes"
+run/main_scene="uid://dcgwaxuvmonfp"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
+
+[autoload]
+
+InventorySystem="*uid://hhainvr0xsdx"
+ItemTooltip="*uid://bgffi58denc1f"
+AffixPool="*uid://cqhk4f1851u1i"
 
 [display]
 

@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dnlp20cdkkoql"]
+
+[ext_resource type="Texture2D" uid="uid://g32kgs674coc" path="res://addons/Pixel RPG Starter Pack/tiles/apple_red_01.png" id="1_fkjh3"]
+
+[node name="Item" type="TextureRect" unique_id=126092635]
+texture_filter = 1
+offset_right = 50.0
+offset_bottom = 50.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource("1_fkjh3")
+expand_mode = 2
+stretch_mode = 3

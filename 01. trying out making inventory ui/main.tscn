@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://d28yx244elcq7"]
+
+[ext_resource type="PackedScene" uid="uid://cmmovdcb41nd" path="res://01. trying out making inventory ui/inventory_slot.tscn" id="1_2uhxa"]
+
+[node name="Main" type="Control" unique_id=1818923505]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="GridContainer" type="GridContainer" parent="." unique_id=439377437]
+custom_minimum_size = Vector2(458, 150)
+layout_mode = 1
+offset_right = 8.0
+offset_bottom = 12.0
+columns = 10
+
+[node name="InventorySlot" parent="GridContainer" unique_id=495895140 instance=ExtResource("1_2uhxa")]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 2
+
+[node name="InventorySlot2" parent="GridContainer" unique_id=1294100019 instance=ExtResource("1_2uhxa")]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 2
+
+[node name="InventorySlot3" parent="GridContainer" unique_id=397802328 instance=ExtResource("1_2uhxa")]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 2
+
+[node name="InventorySlot4" parent="GridContainer" unique_id=622226085 instance=ExtResource("1_2uhxa")]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 2
+
+[node name="InventorySlot5" parent="GridContainer" unique_id=1468520649 instance=ExtResource("1_2uhxa")]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 2
+
+[node name="InventorySlot6" parent="GridContainer" unique_id=1603151154 instance=ExtResource("1_2uhxa")]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 2
