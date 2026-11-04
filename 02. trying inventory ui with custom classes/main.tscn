@@ -1,0 +1,81 @@
+[gd_scene format=3 uid="uid://j6tm7kxxk2x1"]
+
+[ext_resource type="Theme" uid="uid://dgb1uo750d765" path="res://addons/Pixel UI Free/pixel_ui/themes/wood.tres" id="1_liank"]
+[ext_resource type="PackedScene" uid="uid://cuin1pyjb0fiv" path="res://02. trying inventory ui with custom classes/InventoryCard.tscn" id="2_0sxok"]
+[ext_resource type="Texture2D" uid="uid://cl6xh61y2qfwv" path="res://addons/Pixel UI Free/pixel_ui/icons/star.png" id="3_28pka"]
+[ext_resource type="Texture2D" uid="uid://d4l8gbmoiac77" path="res://addons/Pixel RPG Starter Pack/tiles/tome_01.png" id="4_lk82u"]
+[ext_resource type="Texture2D" uid="uid://mfjkv602e2mx" path="res://addons/Pixel RPG Starter Pack/tiles/beef_01.png" id="5_xatoq"]
+
+[node name="Main" type="Node2D" unique_id=419604178]
+
+[node name="Panel" type="Panel" parent="." unique_id=818386775]
+offset_right = 642.0
+offset_bottom = 391.0
+
+[node name="Control" type="Control" parent="Panel" unique_id=1114570685]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+theme = ExtResource("1_liank")
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="Panel/Control" unique_id=393158401]
+layout_mode = 1
+offset_left = 241.0
+offset_top = 94.0
+offset_right = 399.0
+offset_bottom = 276.0
+
+[node name="Label" type="Label" parent="Panel/Control/VBoxContainer2" unique_id=927690555]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "Inventory"
+horizontal_alignment = 1
+
+[node name="GridContainer" type="GridContainer" parent="Panel/Control/VBoxContainer2" unique_id=125175453]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+columns = 3
+
+[node name="InventoryCard" parent="Panel/Control/VBoxContainer2/GridContainer" unique_id=1139830625 instance=ExtResource("2_0sxok")]
+layout_mode = 2
+myName = "11"
+
+[node name="InventoryCard2" parent="Panel/Control/VBoxContainer2/GridContainer" unique_id=1662579748 instance=ExtResource("2_0sxok")]
+layout_mode = 2
+myName = "12"
+texture = ExtResource("3_28pka")
+
+[node name="InventoryCard3" parent="Panel/Control/VBoxContainer2/GridContainer" unique_id=452074194 instance=ExtResource("2_0sxok")]
+layout_mode = 2
+myName = "13"
+texture = ExtResource("4_lk82u")
+
+[node name="InventoryCard4" parent="Panel/Control/VBoxContainer2/GridContainer" unique_id=1126584363 instance=ExtResource("2_0sxok")]
+layout_mode = 2
+myName = "21"
+texture = ExtResource("5_xatoq")
+
+[node name="InventoryCard5" parent="Panel/Control/VBoxContainer2/GridContainer" unique_id=1463770010 instance=ExtResource("2_0sxok")]
+layout_mode = 2
+myName = "22"
+
+[node name="InventoryCard6" parent="Panel/Control/VBoxContainer2/GridContainer" unique_id=371662358 instance=ExtResource("2_0sxok")]
+layout_mode = 2
+myName = "23"
+texture = null
+
+[node name="InventoryCard7" parent="Panel/Control/VBoxContainer2/GridContainer" unique_id=1738094474 instance=ExtResource("2_0sxok")]
+layout_mode = 2
+myName = "24"
+texture = null
+
+[node name="InventoryCard8" parent="Panel/Control/VBoxContainer2/GridContainer" unique_id=1420566256 instance=ExtResource("2_0sxok")]
+layout_mode = 2
+myName = "25"
+texture = null
+
+[node name="InventoryCard9" parent="Panel/Control/VBoxContainer2/GridContainer" unique_id=1186565580 instance=ExtResource("2_0sxok")]
+layout_mode = 2
+myName = "26"
+texture = null
